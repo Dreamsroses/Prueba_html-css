@@ -1,0 +1,11 @@
+.logo__navbar{
+	max-width: 10%;
+	max-height: 10vw;
+}
+.navbar{
+	font-color: white;
+	text-decoration: none;
+}
+.card-body{
+	text-align: center;
+}
