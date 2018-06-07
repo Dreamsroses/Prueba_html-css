@@ -2,21 +2,34 @@
 <html>
 <head>
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <!-- stylesheet bootstrap 4.1.1 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <!-- /stylesheet bootstrap 4.1.1 -->
 
-	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+  <!-- stylesheet Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- /stylesheet Awesome -->
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- stylesheet Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet"> 
+  <!-- /stylesheet Google fonts -->
 
-	<title>Fundación Niños y Cáncer</title>
+  <!-- Mi hoja de estilo css -->
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+  <!-- /Mi hoja de estilo css -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Fundación Niño y Cáncer</title>
+
 
 </head>
 <body>
 
 	<nav class="navbar sticky-top navbar-light" style="background-color: white;">
 		<img class="logo__navbar" src="./assets/img/logo_pequeno_simple.png">
-	   <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+	   <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="./nosotros.html">Nosotros</a>
       <a class="nav-item nav-link" href="./noticias.html">Noticias</a>
 		</nav>
@@ -65,7 +78,7 @@
 
 <div class="card bg-primary text-center text-white p-5">
   <div class="card-body">
-  	<h1 class="mision__vision">Mision y Vision</h1>
+  	<h1 class="nosotros">Nosotros</h1>
   </div>
 </div>
 
@@ -117,7 +130,44 @@
   </div>
 </div>
 
+<!-- Footer -->
+<div class="card bg-primary text-center text-white p-5">
+  <div class="card-body">
+    <h1 class="blog">Síguenos</h1>
+  </div>
+</div>
 
+<div class="card-group">
+  <div class="map__responsive">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447668!2d-70.5393396848024!3d-33.38387898079302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses-419!2scl!4v1528346291453" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <div class="card text-left ml-3">
+     <h5 class="card-title">Contactos</h5>
+      <p class="card-text">Teléfonos: 22170821 - 22170811</p>
+      <p class="card-text">Fax: 22170820</p>
+      <p class="card-text">Cta. Cte: Banco BCI N° 85999997</p>
+      <p class="card-text">RUT: 72.169.900-5</p>
+      <p class="card-text">Email: fundacion@ninoycancer.cl</p> 
+
+   <div class="text-center" style="font-size:3em; color:#007bff">
+    <i class="facebook__icon fab fa-facebook-square "></i>
+    <i class="instagram__icon fab fa-instagram"></i>
+   </div>
+  </div>
+  <div class="card">
+
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+    <button type="enviar" class="btn btn-primary">Enviar</button>
+</form>
+<!-- /Footer -->
 
 </body>
 </html>
