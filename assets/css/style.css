@@ -28,13 +28,13 @@
     width:100%;
     position:absolute;
 }
-.isotipo__footer{
-	width: 10px;
-	height: 1000px;
+.phone__footer{
+	display: inline-block;
 }
 
+
+
 @media (min-width: 300px) and (max-width: 600px){
-}
 .map__responsive iframe{
 	max-width: 100%;
 	height:auto;
@@ -44,3 +44,16 @@
 	height: auto;
 }
 }
+
+@media (min-width: 601px) and (max-width: 800px){
+.map__responsive iframe{
+	max-width: 100%;
+	height:auto;
+}
+.isotipo__footer{
+	min-width: 100%;
+	height: auto;
+}
+}
+
+
