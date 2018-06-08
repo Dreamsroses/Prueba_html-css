@@ -36,7 +36,7 @@
 @media (min-width: 300px) and (max-width: 600px){
 }
 .map__responsive iframe{
-	max-width: 100%
+	max-width: 100%;
 	height:auto;
 }
 .isotipo__footer{
