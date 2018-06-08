@@ -6,53 +6,61 @@
 	font-color: white;
 	text-decoration: none;
 }
-.card-body{
-	text-align: center;
-}
-.facebook__icon{
-	display: inline-block;
-}
-.instagram__icon{
-	display: inline-block;
-}
-.map__responsive{
-    overflow: hidden;
+.map-responsive{
+    overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
     height:0;
 }
-.map__responsive iframe{
+.map-responsive iframe{
     left:0;
     top:0;
     height:100%;
     width:100%;
     position:absolute;
 }
-.phone__footer{
-	display: inline-block;
+
+/* nosotros.html */
+
+.directorio__img{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	max-width: 100%;
+	height: auto;
 }
 
+/* noticias.html */
+
+.row__montana--noticia{
+	margin-right: 20px;
+}
+
+.montana__noticia{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	max-width: 100%;
+	height: auto;
+}
+
+.futbolito__noticia{
+
+}
 
 
 @media (min-width: 300px) and (max-width: 600px){
-.map__responsive iframe{
-	max-width: 100%;
-	height:auto;
-}
-.isotipo__footer{
-	min-width: 100%;
+
+.futbolito__noticia{
+	max-width: 10vw;
 	height: auto;
 }
+.col-md-4{
+	display: none;
 }
 
 @media (min-width: 601px) and (max-width: 800px){
 .map__responsive iframe{
 	max-width: 100%;
 	height:auto;
-}
-.isotipo__footer{
-	min-width: 100%;
-	height: auto;
 }
 }
 
