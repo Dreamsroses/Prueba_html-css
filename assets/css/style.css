@@ -15,8 +15,9 @@ p{
 	background-color: #007bff;
 	text-align: center;
 	color: white;
-	padding: 50px;
 	max-width: 100%;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 .logo__navbar{
 	max-width: 10%;
@@ -89,13 +90,13 @@ p{
 	margin-top: 10px;
 }
 .colaborando__sidebar{
-	margin-left: 10px;
+	margin-right: 30px;
 	margin-top: 80px;
 }
-.colaborando__sidebar--colaborar{
+.colaborando__sidebar--titulo{
 	color: #007bff;
 	margin-top: 100px;
-	margin-left: 10px;
+	margin-left: 20px;
 }
 .sidebard__contenido--becas{
 	border-radius: 10%;
@@ -132,6 +133,12 @@ p{
 }
 .publicacion__barra{
 	margin-bottom: 40px;
+}
+.nosotros__index{
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 @media (min-width: 300px) and (max-width: 600px){
@@ -201,7 +208,36 @@ p{
 .voluntariado__administrativo{
 	margin: 0px;
 }
-
+.previsualizacion__noticias{
+	position: relative;
+	flex-direction: column;
+	word-wrap: break-word;
+	display: flex;
+}
+.montana__thumbnails{
+	max-width: 180vw;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+.futbolito__thumbnails{
+	max-width: 180vw;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+.tallarinata__thumbnails{
+	max-width: 180vw;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+.nosotros__index{
+	padding: 20px;
+	text-align: justify;
+	margin-left: 2px;
+	margin-right: 2px;
+}
 }
 @media (min-width: 601px) and (max-width: 800px){
 .col-md-4{
@@ -209,7 +245,7 @@ p{
 }
 .col-md-8{
 	flex: 0 0 100%;
-	max-width: 100%
+	max-width: 100%;
 }
 .montana2__img{
 	display:block;
@@ -226,7 +262,7 @@ p{
 .row__montana--noticia{
 	margin-left: 50px;
 	margin-right: 50px;
-	height:100%;
+	height: 100%;
 }
 .footer{
 	position: relative;
@@ -245,6 +281,30 @@ p{
 	margin-left: 50px;
 	margin-right: 50px;
 	height:100%;
+}
+.previsualizacion__noticias{
+	position: relative;
+	flex-direction: column;
+	word-wrap: break-word;
+	display: flex;
+}
+.montana__thumbnails{
+	max-width: 60vw;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+.futbolito__thumbnails{
+	max-width: 60vw;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+.tallarinata__thumbnails{
+	max-width: 60vw;
+	height: auto;
+	display: block;
+	margin: auto;
 }
 }
 
