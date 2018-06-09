@@ -31,6 +31,7 @@ p{
     padding-bottom:56.25%;
     position:relative;
     height:0;
+    padding: 130px;
 }
 .map-responsive iframe{
     left:0;
@@ -53,7 +54,6 @@ p{
 
 .row__montana--noticia{
 	margin-left: 50px;
-	margin-bottom: 50px;
 }
 .row__futbolito--noticia{
 	margin: 50px;
@@ -133,6 +133,23 @@ p{
 }
 
 @media (min-width: 300px) and (max-width: 600px){
+.montana2__img{
+	display:block;
+	margin:auto;
+}
+.futbolito2__img{
+	display:block;
+	margin:auto;
+}
+.tallarinata2__img{
+	display:block;
+	margin:auto;
+}
+.row__montana--noticia{
+	margin-left: 50px;
+	margin-right: 50px;
+	height:100%;
+}
 .row__montana--noticia{
 	margin: 0px;
 }
@@ -145,13 +162,10 @@ p{
 .col-md-4{
 	display: none;
 }
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:50%;
-    width:50%;
-    position:absolute;
+.publicacion__barra{
+	margin-bottom: 80px;
 }
+
 .sidebard__contenido--becas{
 	display: none;
 }
@@ -161,12 +175,62 @@ p{
 .sidebard__contenido--aprende{
 	display: none;
 }
+.footer{
+	position: relative;
+	flex-direction: column;
+	word-wrap: break-word;
+	display: flex;
+}
+.map-responsive{
+    overflow:hidden;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 }
 @media (min-width: 601px) and (max-width: 800px){
-.map__responsive iframe{
-	max-width: 80vw;
-	height:auto;
+.col-md-4{
+	display: none;
+}
+.col-md-8{
+	flex: 0 0 100%;
+	max-width: 100%
+}
+.montana2__img{
+	display:block;
+	margin:auto;
+}
+.futbolito2__img{
+	display:block;
+	margin:auto;
+}
+.tallarinata2__img{
+	display:block;
+	margin:auto;
+}
+.row__montana--noticia{
+	margin-left: 50px;
+	margin-right: 50px;
+	height:100%;
+}
+.footer{
+	position: relative;
+	flex-direction: column;
+	word-wrap: break-word;
+	display: flex;
+}
+.map-responsive{
+ 	position: relative;
+	flex-direction: column;
+	word-wrap: break-word;
+	display: flex;
+	padding: 130px;
 }
 }
-
 
