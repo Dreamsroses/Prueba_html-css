@@ -96,24 +96,41 @@ p{
 	margin-left: 10px;
 }
 .sidebard__contenido--becas{
+	border-radius: 10%;
+	border-width: 5px;
+	border-width: 1px solid #007bff;
 	color: white;
 	text-align: center;
-	padding: 20px;
+	padding-top: 5px;
 	margin-left: 20px;
+	margin-right: 20px;
 	margin-top: 100px;
 }
 .sidebard__contenido--voluntarios{
+	border-radius: 10%;
+	border-width: 5px;
+	border-width: 1px solid #007bff;
 	color: white;
 	text-align: center;
-	padding: 20px;
+	padding-top: 5px;
 	margin-left: 20px;
+	margin-right: 20px;
 	margin-top: 100px;
-	display: grid;
+}
+.sidebard__contenido--aprende{
+	border-radius: 10%;
+	border-width: 5px;
+	border-width: 1px solid #007bff;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 100px;
 }
 .publicacion__barra{
 	margin-bottom: 40px;
 }
-
 
 @media (min-width: 300px) and (max-width: 600px){
 .row__montana--noticia{
@@ -129,10 +146,22 @@ p{
 	display: none;
 }
 .map-responsive iframe{
-    height:300%;
-    width:100%;
+    left:0;
+    top:0;
+    height:50%;
+    width:50%;
+    position:absolute;
 }
-
+.sidebard__contenido--becas{
+	display: none;
+}
+.sidebard__contenido--voluntarios{
+	display: none;
+}
+.sidebard__contenido--aprende{
+	display: none;
+}
+}
 @media (min-width: 601px) and (max-width: 800px){
 .map__responsive iframe{
 	max-width: 80vw;
