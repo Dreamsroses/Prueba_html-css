@@ -11,6 +11,13 @@ p{
 	font-family: "Lato", sans-serif;
 	font-weight: 400;
 }
+.titulo__seccion{
+	background-color: #007bff;
+	text-align: center;
+	color: white;
+	padding: 50px;
+	max-width: 100%;
+}
 .logo__navbar{
 	max-width: 10%;
 	max-height: 10vw;
@@ -45,7 +52,8 @@ p{
 /* noticias.html */
 
 .row__montana--noticia{
-	margin: 50px;
+	margin-left: 50px;
+	margin-bottom: 50px;
 }
 .row__futbolito--noticia{
 	margin: 50px;
@@ -78,6 +86,34 @@ p{
 .button__suscribete{
 	margin-top: 10px;
 }
+.colaborando__sidebar{
+	margin-left: 10px;
+	margin-top: 80px;
+}
+.colaborando__sidebar--colaborar{
+	color: #007bff;
+	margin-top: 100px;
+	margin-left: 10px;
+}
+.sidebard__contenido--becas{
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-left: 20px;
+	margin-top: 100px;
+}
+.sidebard__contenido--voluntarios{
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-left: 20px;
+	margin-top: 100px;
+	display: grid;
+}
+.publicacion__barra{
+	margin-bottom: 40px;
+}
+
 
 @media (min-width: 300px) and (max-width: 600px){
 .row__montana--noticia{
